@@ -16,6 +16,8 @@
   padding: 12px 16px;
 }
 
+.index-table .divider { background: #e8f0fe; font-weight: bold; padding: 8px 16px; color: #333; font-size: 13px; letter-spacing: 0.05em; }
+
 .table-wrap {
   border: 1px solid #ddd;
   border-radius: 8px;
