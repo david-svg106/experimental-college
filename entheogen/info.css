@@ -1,6 +1,9 @@
 body {
   background-color: #444469;
   color: #ffffff;
+  margin: 25px;
+  font-family: arial, sans-serif;
+  font-size: 120%;
 }
 h1 {
   color: #ffffff;
