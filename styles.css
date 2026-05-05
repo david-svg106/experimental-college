@@ -1,3 +1,8 @@
+.main-container {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+  color: #000
+}
+
 .cover {
   /* Replace 'your-image.jpg' with your file path */
   background-image: url('/assets/longwalk.jpg');
