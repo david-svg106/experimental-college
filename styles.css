@@ -25,6 +25,23 @@
   background-attachment: fixed;*/
 }
 
+.bpcover {
+  /* Replace 'your-image.jpg' with your file path */
+  background-image: url('/panthers/hueynewton-loc.jpg');
+
+  /* This makes the image cover the entire area */
+  background-size: cover;
+
+  /* This keeps the image from repeating */
+  background-repeat: no-repeat;
+
+  /* This centers the image */
+  background-position: center;
+
+  /* Optional: keeps the background from scrolling with the page */
+  background-attachment: fixed;
+}
+
 .index-table {
   width: 100%;
   border-collapse: collapse;
