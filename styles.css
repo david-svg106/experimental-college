@@ -40,6 +40,9 @@
 
   /* Optional: keeps the background from scrolling with the page */
   background-attachment: fixed;
+
+  /* Ensures the body takes up at least the full height of the viewport */
+  min-height: 100vh;
 }
 
 .index-table {
