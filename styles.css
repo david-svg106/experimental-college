@@ -21,8 +21,8 @@
   /* This centers the image 
   background-position: center;*/
 
-  /* Optional: keeps the background from scrolling with the page */
-  background-attachment: fixed;
+  /* Optional: keeps the background from scrolling with the page 
+  background-attachment: fixed;*/
 }
 
 .index-table {
