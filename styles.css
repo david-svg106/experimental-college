@@ -49,6 +49,7 @@
   width: 100%;
   border-collapse: collapse;
   font-size: 15px;
+  min-width: 600px;        /* CRITICAL: This forces the table to be wider than the phone */
 }
 
 .index-table th {
@@ -70,4 +71,10 @@
   border-radius: 8px;
   overflow: hidden;
   margin: 1rem 0;
+  
+  width: 100%;             /* Stay within the phone screen edges */
+  overflow-x: auto;        /* The "engine" you mentioned */
+  -webkit-overflow-scrolling: touch; /* The "smoothness" for iOS */
 }
+      
+  
