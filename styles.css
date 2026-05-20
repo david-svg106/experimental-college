@@ -52,6 +52,17 @@
   min-width: 600px;        /* CRITICAL: This forces the table to be wider than the phone */
 }
 
+.index-table table a {
+  color: #ff5733; /* Changes the link to a coral/orange color */
+  text-decoration: underline; /* Optional: keeps the underline */
+}
+
+/* Optional: Change color when someone hovers over the link */
+.index-table table a:hover {
+  color: #c70039; /* Darker red on hover */
+}
+
+
 .index-table th {
   background: #f5f5f5;
   font-weight: bold;
