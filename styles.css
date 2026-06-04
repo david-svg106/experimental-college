@@ -43,7 +43,7 @@
   background-attachment: fixed;
 
   /* Ensures the body takes up at least the full height of the viewport */
-  min-height: 100vh;
+  min-height: 75vh;
 }
 
 .index-table {
