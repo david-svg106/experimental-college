@@ -13,7 +13,7 @@
 
 .cover {
   /* Replace 'your-image.jpg' with your file path */
-  background-image: url('/assets/long.png');
+  background-image: url('/assets/Long.png');
 
   /* This makes the image cover the entire area 
   background-size: cover;*/
