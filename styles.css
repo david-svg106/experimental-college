@@ -160,25 +160,29 @@
   min-height: 100vh;
 }
 
-.index-table {
+.index-table,
+.resource-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 15px;
   min-width: 600px;        /* CRITICAL: This forces the table to be wider than the phone */
 }
 
-.index-table table a {
+.index-table table a,
+.resource-table table a {
   color: #ff5733; /* Changes the link to a coral/orange color */
   text-decoration: underline; /* Optional: keeps the underline */
 }
 
 /* Optional: Change color when someone hovers over the link */
-.index-table table a:hover {
+.index-table table a:hover, 
+.resource-table table a:hover {
   color: #c70039; /* Darker red on hover */
 }
 
 
-.index-table th {
+.index-table th, 
+.resource-table th {
   background: #f5f5f5;
   font-weight: bold;
   padding: 10px 16px;
@@ -186,11 +190,20 @@
   border-bottom: 1px solid #ddd;
 }
 
-.index-table td {
+.index-table td, 
+.resource-table td {
   padding: 12px 16px;
 }
 
-.index-table .divider { background: #e8f0fe; font-weight: bold; padding: 8px 16px; color: #333; font-size: 13px; letter-spacing: 0.05em; }
+.index-table .divider,
+.resource-table .divider { 
+  background: #e8f0fe; 
+  font-weight: bold; 
+  padding: 8px 16px; 
+  color: #333; 
+  font-size: 13px; 
+  letter-spacing: 0.05em; 
+}
 
 .table-wrap {
   border: 1px solid #ddd;
