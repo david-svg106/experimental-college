@@ -64,8 +64,8 @@
     margin: 0.3rem 0;
     padding: 0.3rem;
     border-radius: 3px;
-    background: #e3eafa;
-    color: #000000;
+    background: #e3eafa; /* Light blue */
+    color: #041a4d; /* Dark blue */
     overflow-wrap: anywhere;
 }
 
@@ -74,8 +74,8 @@
     margin: 0.3rem 0;
     padding: 0.3rem;
     border-radius: 3px;
-    background: #FF0000;
-    color: #000000;
+    background: #FF0000; /* Red */
+    color: #000000; /* Black */
     overflow-wrap: anywhere;
     text-decoration: none;
 }
